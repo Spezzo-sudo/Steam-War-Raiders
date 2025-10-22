@@ -74,10 +74,10 @@ const ResearchView: React.FC = () => {
     setActiveCategory(category);
   };
 
-  const categoryEntries = Object.entries(CATEGORY_LABELS) as Array<[
+  const categoryEntries = Object.entries(CATEGORY_LABELS) as ([
     keyof typeof RESEARCH_CATEGORIES,
     string,
-  ]>;
+  ])[];
 
   const filteredResearch = Object.values(RESEARCH).filter((tech) => {
     if (activeCategory === ALL_CATEGORY_KEY) {

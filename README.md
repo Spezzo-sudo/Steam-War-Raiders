@@ -21,6 +21,18 @@ Ein Vite + React Prototyp für die Steampunk-Raiders Verwaltungssimulation.
    ```bash
    npm run build
    ```
+4. Typprüfung ausführen:
+   ```bash
+   npm run typecheck
+   ```
+5. Linting anstoßen:
+   ```bash
+   npm run lint
+   ```
+6. Testsuite starten:
+   ```bash
+   npm run test
+   ```
 
 ## Projektstruktur
 
@@ -55,8 +67,11 @@ solange keine API-Aufrufe ausgelöst werden.
 ### Erledigt
 - Archiv `Dampfnudel-Raiders-main (1).zip` entpackt und Projektdateien in das Repository übernommen.
 - Temporäre Archive entfernt und Arbeitsverzeichnis bereinigt.
+- Gameplay-Logik für Baukosten und Warteschlangen modularisiert, inklusive neuer Hilfsfunktionen.
+- Testsuite (Vitest) sowie ESLint-Konfiguration ergänzt und in die Projekt-Workflows integriert.
+- API-Client-Hilfsmodul mit konfigurierbarer Basis-URL und Timeout vorbereitet.
 
 ### Offen
-- Kern-Gameplay-Logik (z. B. Ökonomie, Raid-Resolution) weiter verfeinern und modularisieren.
-- Testsuite und Linting-Workflow aufsetzen, um automatische Qualitätsprüfungen zu ermöglichen.
-- Integration von echten Backend- oder KI-Diensten vorbereiten und Konfigurationshinweise ergänzen.
+- Gameplay-Effekte der Forschung (z. B. Einfluss auf Produktion und Lagerkapazität) implementieren.
+- UI-Feedback für Ressourcenüberlauf und Warteschlangendetails erweitern.
+- Reale Backend-Endpunkte anbinden und Authentifizierungskonzept definieren.

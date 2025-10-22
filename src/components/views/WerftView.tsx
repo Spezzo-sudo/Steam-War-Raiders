@@ -80,7 +80,7 @@ const WerftView: React.FC = () => {
               </div>
               <div className="rounded-lg bg-black/40 p-3">
                 <dt className="text-xs uppercase tracking-wide text-yellow-300">Nächste Mission</dt>
-                <dd>Konvoi nach "Nimbus Reach" (ETA TBA)</dd>
+                <dd>Konvoi nach &quot;Nimbus Reach&quot; (ETA TBA)</dd>
               </div>
             </dl>
           </div>

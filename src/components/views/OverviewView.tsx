@@ -146,7 +146,7 @@ const OverviewView: React.FC = () => {
             className="mx-auto h-48 w-48 rounded-full border-4 border-yellow-600/50 object-cover shadow-lg"
           />
           <div className="space-y-1">
-            <h3 className="text-[clamp(1.3rem,1vw+1.1rem,1.8rem)] font-cinzel">Heimatplanet "Chronos Prime"</h3>
+            <h3 className="text-[clamp(1.3rem,1vw+1.1rem,1.8rem)] font-cinzel">Heimatplanet &quot;Chronos Prime&quot;</h3>
             <p className="text-sm text-gray-400">Koordinaten: [1:1:1]</p>
             <p className="text-xs uppercase tracking-wide text-yellow-200">{bottleneck}</p>
           </div>
